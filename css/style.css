@@ -12,7 +12,17 @@ html, body, header {
 }
 
 .navbar-brand {
+    color: #041E41;
     font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #041E41;
+}
+
+.navbar-nav .nav-item .sign-up {
+    width: 100px;
+    background-color: #041E41;
 }
 
 .title {
@@ -24,6 +34,20 @@ hr {
     background-color: #041E41;
 }
 
+.section-header {
+    font-size: 50px;
+}
+
 .quote {
     font: italic 24px Georgia, serif;
+}
+
+.startup-logo {
+    -webkit-filter: grayscale(250%);
+    filter: grayscale(250%);
+}
+
+.startup-logo:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
 }
