@@ -9,6 +9,7 @@ html, body, header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    opacity: 40%;
 }
 
 .navbar-brand {
