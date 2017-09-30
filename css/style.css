@@ -4,12 +4,12 @@ html, body, header {
 
 #intro {
     height: 100%;
-    background: url("/img/hero.jpg") no-repeat center center;
+    background: url("/img/hero.jpg") no-repeat center center fixed;
+    background-color: linear-gradient(#B2B2B2);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    opacity: 40%;
 }
 
 .navbar-brand {
@@ -26,7 +26,7 @@ html, body, header {
     background-color: #041E41;
 }
 
-.title {
+.hero-title {
     letter-spacing: 4px;
     text-shadow: 3px 3px 3px #696969;
 }
@@ -39,23 +39,32 @@ hr {
     font-size: 50px;
 }
 
+.job-description {
+
+}
+
 .quote {
     font: italic 24px Georgia, serif;
 }
 
 .startup-logo {
     -webkit-filter: grayscale(250%);
+    -moz-filter: grayscale(250%);
+    -o-filter: grayscale(250%);
     filter: grayscale(250%);
 }
 
 .startup-logo:hover {
     -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
     filter: grayscale(0%);
 }
 
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575px) {
+
     #copyright {
         text-align: center;
     }
@@ -85,15 +94,24 @@ hr {
 /*Medium devices (tablets, 768px and up)*/
 @media (max-width: 767px) {
     
-    
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (max-width: 991px) {
-    
-}
 
-/*Extra large devices (large desktops, 1200px and up)*/
-@media (max-width: 1199px) {
+    body {
+        
+    }
     
+    .section-header {
+        font-size: 35px;
+    }
+    
+    .member-card {
+        
+    }
+    
+    #copyright {
+        text-align: center;
+    }
 }
