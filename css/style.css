@@ -22,7 +22,7 @@ html, body, header {
 }
 
 .navbar-nav .nav-item .sign-up {
-    width: 100px;
+    width: auto;
     background-color: #041E41;
 }
 
@@ -64,21 +64,41 @@ hr {
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (max-width: 575px) {
-    body {
-        
+
+    #copyright {
+        text-align: center;
+    }
+    #members{
+        justify-content: center;
+    }
+    .carousel{
+        width: 90vw;
+        margin: 0;
     }
     
-    .hero-title {
-        font-size: 50px;
+    .img-fluid{
+        width: 90vw;
+        justify-content: center;
     }
     
+    .title {
+        font-size: 60px;
+        letter-spacing: 2px;
+        text-shadow: 3px 3px 3px #696969;
+    }
     .section-header {
-        font-size: 20px;
+        font-size: 40px;
     }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (max-width: 767px) {
+    
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (max-width: 991px) {
+
     body {
         
     }

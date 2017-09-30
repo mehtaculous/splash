@@ -2,7 +2,7 @@ $(document).ready(function(){
     var checkScroll = function(){
         var scroll = $(window).scrollTop();
         var lower = 200; var upper = 400;
-        
+        // Gradient Scroll
         if (scroll > lower && scroll <= upper) {
             $('.navbar').css('background' , 'rgba(255,184,25,' + ((scroll-lower)/lower).toString() + ')');
         } else if (scroll > upper){
